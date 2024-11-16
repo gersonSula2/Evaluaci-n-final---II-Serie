@@ -1,3 +1,11 @@
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.AssemblyInfo.cs
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.sourcelink.json
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\appsettings.json
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\clienteAPI-EF.exe
@@ -82,13 +90,6 @@ C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\Desaro
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.csproj.AssemblyReference.cache
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.AssemblyInfoInputs.cache
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.AssemblyInfo.cs
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.csproj.CoreCompileInputs.cache
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\clienteAPI-EF.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Personal\Desktop\Backup Gerson\Escritorio\Tareas\OCTAVO_SEMESTRE\DesarolloWeb-1\examen_final\clienteAPI-EF\obj\Debug\net8.0\staticwebassets\msbuild.clienteAPI-EF.Microsoft.AspNetCore.StaticWebAssets.props

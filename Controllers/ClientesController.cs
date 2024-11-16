@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ClienteAPI_EF.Data;
-using ClienteAPI_EF.Models;
-using System.Linq;
-using System.Threading.Tasks;
+using clienteAPI_EF.Models;
 
 namespace ClienteAPI_EF.Controllers
 {
@@ -21,9 +19,10 @@ namespace ClienteAPI_EF.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> CrearCliente(Cliente cliente)
         {
+            cliente.FechaCreacion = DateTime.UtcNow;
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetCliente), new { id = cliente.ID }, cliente);
+            return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
         }
 
         [HttpGet("{id}")]
@@ -41,7 +40,7 @@ namespace ClienteAPI_EF.Controllers
         public async Task<ActionResult<IEnumerable<Cliente>>> ListadoGeneral()
         {
             return await _context.Clientes
-                .OrderBy(c => c.FechaNacimiento)
+                .OrderBy(c => c.FechaCreacion)
                 .ThenBy(c => c.Apellidos)
                 .ToListAsync();
         }
@@ -67,7 +66,7 @@ namespace ClienteAPI_EF.Controllers
         {
             _context.InformacionClientes.Add(informacion);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetInformacionCliente), new { id = informacion.ID }, informacion);
+            return CreatedAtAction(nameof(GetInformacionCliente), new { id = informacion.Id }, informacion);
         }
 
         [HttpGet("{id}")]

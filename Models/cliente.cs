@@ -1,40 +1,25 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace ClienteAPI_EF.Models
-{
-    public class Cliente
-    {
-        public int ID { get; set; }
-        [Required]
-        public string Nombres { get; set; }
-        [Required]
-        public string Apellidos { get; set; }
-        [Required]
-        public string Genero { get; set; }
-        [Required]
-        public DateTime FechaNacimiento { get; set; }
-        [Required]
-        public bool Estado { get; set; }
-    }
-}
+namespace clienteAPI_EF.Models;
 
-namespace ClienteAPI_EF.Models
+public partial class Cliente
 {
-    public class InformacionCliente
-    {
-        public int ID { get; set; }
-        public int ClienteID { get; set; }
-        [Required]
-        public string TipoInformacion { get; set; }
-        [Required]
-        public DateTime FechaCreacion { get; set; }
-        public DateTime? FechaActualizacion { get; set; }
-        [Required]
-        public string UsuarioCreador { get; set; }
-        [Required]
-        public bool EstadoInformacion { get; set; }
-        
-        public Cliente Cliente { get; set; }
-    }
+    public int Id { get; set; }
+
+    public string Nombres { get; set; } = null!;
+
+    public string Apellidos { get; set; } = null!;
+
+    public string Genero { get; set; } = null!;
+
+    public DateTime FechaNacimiento { get; set; }
+
+    public bool Estado { get; set; }
+
+    public DateTime FechaCreacion { get; set; }
+
+    public virtual ICollection<InformacionCliente> InformacionClienteClienteId1Navigations { get; set; } = new List<InformacionCliente>();
+
+    public virtual ICollection<InformacionCliente> InformacionClienteClientes { get; set; } = new List<InformacionCliente>();
 }

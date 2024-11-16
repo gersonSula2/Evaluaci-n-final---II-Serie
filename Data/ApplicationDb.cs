@@ -1,6 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-using ClienteAPI_EF.Models;
+using clienteAPI_EF.Models;
 
 namespace ClienteAPI_EF.Data
 {
@@ -19,7 +19,7 @@ namespace ClienteAPI_EF.Data
             modelBuilder.Entity<InformacionCliente>()
                 .HasOne(ic => ic.Cliente)
                 .WithMany()
-                .HasForeignKey(ic => ic.ClienteID);
+                .HasForeignKey(ic => ic.ClienteId);
         }
     }
 }
